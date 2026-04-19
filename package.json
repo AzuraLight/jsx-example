@@ -1,0 +1,27 @@
+{
+  "name": "my-jsxgraph-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@continuedev/fetch": "^1.9.0",
+    "jsxgraph": "^1.12.2",
+    "mathjs": "^15.2.0",
+    "mathlive": "^0.109.1",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4",
+    "vue-tsc": "^3.2.6"
+  }
+}
